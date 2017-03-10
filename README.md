@@ -1,7 +1,6 @@
 # spring-security-basic
-Spring Rest API with basic authentication  [ i.e. Username &amp; password]
 
-Basic Authentication is implemented using spring security 4.x.
+Securing Restful Web Services with Spring Security and Http-Basic Authentication
+Rakesh kumbhare [SPRING-MVC, SPRING-SECURITY, WEB-SERVICES]
 
-It is the basic demo application that will show how to apply http-basic authentication to restrict the user 
-to access rest api designed using spring 4.1.
+This Sample Application shows how to secure Restful Web Services using Spring security and Http-Basic Authentication, we will use Spring Security to validate a user based on basic-authentication i.e. providing username and password in each request.
