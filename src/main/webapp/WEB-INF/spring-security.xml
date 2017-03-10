@@ -9,9 +9,9 @@
 
 
 	<security:http use-expressions="true" entry-point-ref="restAuthenticationEntryPoint">
+		<security:http-basic  />
 		<security:custom-filter ref="restAuthenticationFilter" before="PRE_AUTH_FILTER"/>
 		<security:intercept-url pattern="/*" access="hasAnyRole('ROLE_ADMIN', 'ROLE_USER')" />
-		<security:http-basic />
 	</security:http>
 	
 	<bean id="restAuthenticationEntryPoint" 
